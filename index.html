@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
 
   <title>Hello, world!</title>
@@ -8,25 +9,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-  <link rel="stylesheet" href="estilo.css">
-
-   <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-
-  <script>
-    $(document).ready(function(){
-  // Enable Carousel Controls
-  $(".right").click(function(){
-    $("#carouselcard").carousel("next");
-  });
-});
-</script>
- 
+  <link rel="stylesheet" href="css/estilo.css">
 </head>
 
 <body>
@@ -35,10 +21,10 @@
       <div id="cartao">
         <div class="carousel-item active">
           <div id="frente">
-            <img id="bandeira" src="visa.png">
-            <img id="logo" src="next.png"><br>
+            <img id="bandeira" src="images/visa.png">
+            <img id="logo" src="images/next.png"><br>
 
-            <img id="chip" src="chip.png">
+            <img id="chip" src="images/chip.png">
             <span class="numero">2345 3452 5313 7652</span>
             <span class="validade">
               valid <br>
@@ -48,10 +34,10 @@
             <span class="nome">scott weiland</span>
           </div>
         </div><!-- /.item -->
-        
+
         <div class="carousel-item">
           <div id="verso">
-            <img id="tarja" src="tarja.jpg">
+            <img id="tarja" src="images/tarja.jpg">
             <div id="cvv">
               <span style="float: right"><em>390</em></span>
             </div>
@@ -60,6 +46,26 @@
       </div>
     </div><!-- /.inner -->
   </div><!-- /.carousel -->
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+    integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+    integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      // Enable Carousel Controls
+      $(".right").click(function () {
+        $("#carouselcard").carousel("next");
+      });
+    });
+  </script>
 
 </body>
 </html>

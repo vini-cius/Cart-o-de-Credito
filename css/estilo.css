@@ -1,6 +1,6 @@
 @font-face {
 	font-family: halter;
-	src: url('halter/halter.ttf');
+	src: url('../fonts/halter/halter.ttf');
 }
 
 body {
